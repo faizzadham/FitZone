@@ -12,9 +12,9 @@
                 <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="/Gymmanagement/index.php">Home</a></li>
-                        <li><a href="/Gymmanagement/about.php">About</a></li>
-                        <li><a href="/Gymmanagement/contact.php">Contact</a></li>
+                        <li><a href="/FitZone/index.php">Home</a></li>
+                        <li><a href="/FitZone/about.php">About</a></li>
+                        <li><a href="/FitZone/contact.php">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">

@@ -14,7 +14,7 @@ function getUserRole() {
 // Require login - redirect if not logged in
 function requireLogin() {
     if (!isLoggedIn()) {
-        header("Location: /Gymmanagement/login.php");
+        header("Location: /FitZone/login.php");
         exit();
     }
 }
@@ -23,7 +23,7 @@ function requireLogin() {
 function requireAdmin() {
     requireLogin();
     if (getUserRole() !== 'admin') {
-        header("Location: /Gymmanagement/login.php");
+        header("Location: /FitZone/login.php");
         exit();
     }
 }
@@ -32,7 +32,7 @@ function requireAdmin() {
 function requireMember() {
     requireLogin();
     if (getUserRole() !== 'member') {
-        header("Location: /Gymmanagement/login.php");
+        header("Location: /FitZone/login.php");
         exit();
     }
 }
